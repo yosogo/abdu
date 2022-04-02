@@ -4,5 +4,5 @@ var bot = new TelegramBot(token, {polling: true});
 
 bot.on("polling_error", (err) => console.log(err));
 bot.on("message",function(msg){
-bot.sendMessage(msg.chat.id,rep, {msg.text});
+bot.sendMessage(msg.chat.id, msg.text);
 });
