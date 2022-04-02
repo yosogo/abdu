@@ -13,6 +13,6 @@
     "node": ">=0.12"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.50.1"
+    "node-telegram-bot-api": "^0.50.0"
   }
 }
